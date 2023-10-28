@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none; /*retira as bolinhas*/
+    display: inline;
+    margin: 40px;
+}
+.cabecalho {
+    background-color: #d89b0b;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end
+}
+.lista-menu li>a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration:none ;
+}
+.perfil {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    text-align: center;
+}
+.minha-descrição {
+    font-size: 14px;
+    width: 405px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+
+}
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+.profissao {
+    font-size: 15px;
+    color: #d89b0b;
+}
+.Formacao {
+    background-color: #d89b0b;
+height: 500px;
+color: white;
+}
+
+.Projetos{
+    background-color: #d89b0b;
+    height: 350px;
+    color: white;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 86px;
+max-width: 750px;
+
+}
+.artigo-formacao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin bottom: 100px;
+    
+}
+.titulo-secao{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+.lista-formacao{
+    padding: 32px;
+}
+.artigo-projeto{
+    flex-direction: column;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.Contato{
+    background-color: white;
+    height: 80px;
+    display:flex ;
+    align-items: center;
+    color:#d89b0b;
+    justify-content: flex;
+}
